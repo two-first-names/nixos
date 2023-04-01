@@ -7,7 +7,7 @@
 
   system.autoUpgrade = {
     enable = true;
-    flake = "github:two-first-names/nixos#${networking.hostname}";
+    flake = "github:two-first-names/nixos#${networking.hostName}";
   };
 
   networking.domain = "engiqueer.net";
